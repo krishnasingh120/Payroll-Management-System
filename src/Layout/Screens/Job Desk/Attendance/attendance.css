@@ -1,0 +1,108 @@
+.attendance {
+  display: flex;
+  background-color: white;
+  height: 465px;
+  border-radius: 5px;
+}
+
+.attendance-summary {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.attendance-head {
+  display: flex;
+  font-weight: 400;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.date-btn1 {
+  height: fit-content;
+  margin-left: 33rem;
+  background-color: #ccc;
+  border-radius: 3px;
+  padding: 4px;
+  width: 8rem;
+
+}
+
+.attendance-stats {
+  margin-top: 2px;
+}
+
+.summary-details {
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  margin-left: 10px;
+
+}
+
+.detail {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+
+}
+
+
+.attendance-table {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.attendance-table thead tr{
+ background-color: #007bff;
+ color:white;
+ text-align: left;
+}
+.attendance-table th,
+.attendance-table td{
+  padding: 12px 15px;
+}
+.attendance-table tbody tr{
+  border-bottom: #dddddd;
+}
+.attendance-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+.attendance-table tbody tr:last-of-type{
+  border-bottom: 2px solid #007bff;
+}
+.pagination {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  margin-right: 9px;
+}
+
+.btn {
+  background-color: #ccc;
+  margin-right: 5px;
+  border-radius: 3px;
+  padding: 4px;
+  width: 3rem;
+}
+
+.btn-next {
+  background-color: #007bff;
+  border-radius: 3px;
+  border: 1px solid #007bff;
+  color: white;
+  padding: 4px;
+  width: 3rem;
+  margin-right: 5px;
+}
+
+.option {
+  background-color: #ccc;
+  padding: 2px;
+  margin-left: 5px;
+  margin-right: 10px;
+}

@@ -1,0 +1,79 @@
+.assets {
+    display: flex;
+    background-color: white;
+    height: 465px;
+    border-radius: 5px;
+}
+
+.assets-summary {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.assets-head {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.assets-table {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.assets-table table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+
+.assets-table thead tr{
+   background-color: #007bff;
+   color:white;
+   text-align: left;
+}
+.assets-table th,
+.assets-table td{
+    padding: 12px 15px;
+    width: 10rem;
+}
+.assets-table tbody tr{
+    border-bottom: #dddddd;
+}
+.assets-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.assets-table tbody tr:last-of-type{
+    border-bottom: 2px solid #007bff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #ccc;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.btn-next {
+    background-color: #007bff;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.option {
+    background-color: #ccc;
+    padding: 2px;
+    margin-left: 5px;
+}

@@ -1,0 +1,51 @@
+.sidebar {
+  height: 33rem;
+    width: 290px;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: white;
+    justify-content: space-around;
+  }
+  
+  .employee-info {
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .icon-1{
+    font-size: 40px;
+    margin-right: 1rem;
+  }
+  .employee-details {
+    justify-content: space-between;
+  }
+  
+  .column-head {
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .icon{
+    font-size: 21px;
+    margin-right: 1rem;
+    background-color:#f5f5f5;
+  }
+
+  .heading {
+    font-size: medium;
+    font-weight: 400;
+  }
+  
+  .sub-head {
+    font-size: small;
+    font-weight: 100;
+    color: gray;
+  
+  }
+  
+  .salary-head{
+    color: green;
+    font-size: medium;
+    font-weight: 400;
+    
+  }

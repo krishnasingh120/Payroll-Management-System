@@ -1,0 +1,4 @@
+.attendancet{
+    display: flexbox;
+    flex-direction: column;
+}

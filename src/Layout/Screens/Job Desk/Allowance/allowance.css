@@ -1,0 +1,55 @@
+.allowance {
+  display: flex;
+  width: 48rem;
+  height: 465px;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+.allowance-policy {
+  background-color: tomato;
+  border: 1px solid yellow;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  margin-right: 17px;
+}
+
+.icon-2{
+  font-size: 40px;
+  margin-right: 1rem;
+  color: yellow;
+}
+
+.leave-types {
+  display: flex;
+}
+
+.leave-type {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.leave-type h3{
+  font-weight: 600;
+  font-size: medium;
+}
+
+.leave-value{
+  font-size: medium;
+  font-weight: 400;
+
+}
+
+.leave-label{
+  font-size: small;
+  font-weight: 100;
+  color: gray;
+}

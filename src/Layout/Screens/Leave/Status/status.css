@@ -1,0 +1,110 @@
+.status{
+  display: flex;
+  width: 1100px;
+  background-color: white;
+  height: 465px;
+  border-radius: 5px;
+}
+.status-table {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.status-table table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 400px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.status-table thead tr{
+ background-color: #007bff;
+ color:white;
+ text-align: left;
+}
+.status-table th,
+.status-table td{
+  padding: 12px 15px;
+  width: 11rem  ;
+}
+.status-table tbody tr{
+  border-bottom: #dddddd;
+}
+.status-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+.status-table tbody tr:last-of-type{
+  border-bottom: 2px solid #007bff;
+}
+
+.status-head{
+    display: flex;
+    font-weight: 400;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.date-btn4 {
+    height: fit-content;
+    color: black;
+    margin-left: 56rem;
+    background-color: #ccc;
+    border-radius: 3px;
+    padding: 4px;
+    width: 8rem;
+}
+
+.table-header {
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    width: 65rem;
+    
+}
+
+.header-item {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.search-bar-status{
+    width: 66rem;
+    height: 33px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 4px;
+}
+.pagination {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background-color: #ccc;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 2px;
+  }
+  
+  .btn-next {
+    background-color: #007bff;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+    color: white;
+    padding: 2px;
+    margin-right: 5px;
+  }
+  
+  .option {
+    background-color: #ccc;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }

@@ -1,0 +1,101 @@
+  .leave {
+      display: flex;
+      background-color: white;
+      height: 465px;
+      border-radius: 5px;
+  }
+
+  .leave-summary {
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+
+  .leave-head {
+      display: flex;
+      font-weight: 400;
+      flex-direction: row;
+      margin-left: 10px;
+  }
+
+  .date-btn2 {
+      margin-left: 35rem;
+      background-color: #ccc;
+      border-radius: 3px;
+      padding: 4px;
+      height: fit-content;
+      width: 8rem;
+  }
+
+  .summary-details {
+      display: flex;
+      flex-direction: row;
+      border-radius: 3px;
+  }
+
+  .detail {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+      justify-content: space-between;
+
+  }
+
+  .leave-table {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.leave-table table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.leave-table thead tr{
+   background-color: #007bff;
+   color:white;
+   text-align: left;
+}
+.leave-table th,
+.leave-table td{
+    padding: 12px 15px;
+    width: 9rem;
+}
+.leave-table tbody tr{
+    border-bottom: #dddddd;
+}
+.leave-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.leave-table tbody tr:last-of-type{
+    border-bottom: 2px solid #007bff;
+}
+  .pagination {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+
+  .btn {
+      background-color: #ccc;
+      margin-right: 5px;
+      border-radius: 3px;
+      padding: 2px;
+  }
+
+  .btn-next {
+      background-color: #007bff;
+      border-radius: 3px;
+      border: 1px solid #007bff;
+      padding: 2px;
+      margin-right: 5px;
+  }
+
+  .option {
+      background-color: #ccc;
+      padding: 2px;
+      margin-left: 5px;
+  }

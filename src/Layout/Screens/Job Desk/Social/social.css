@@ -1,0 +1,64 @@
+.social-form {
+    margin-bottom: 20px;
+    height: 465px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .social-form h2{
+    font-weight: 500;
+    margin-left: 1.9rem;
+  }
+  
+  .social-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .social-item label {
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 1.4rem;
+  }
+  
+  .social-item input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    margin-left: 20rem;
+  }
+  
+  .add-link-button {
+    margin-left: 1.5rem;
+    display: block;
+    margin-top: 10px;
+    padding: 4px;
+    width: 5rem;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-group {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    padding: 4px;
+    width: 5rem;
+    background-color:#ccc;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-group button:last-child {
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+    width: 5rem;
+  }

@@ -1,0 +1,122 @@
+.announce{
+    display: flex;
+    width: 1100px;
+    background-color: white;
+    height: 465px;
+    border-radius: 5px;
+  }
+  .announce-table {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .announce-table table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .announce-table thead tr{
+   background-color: #007bff;
+   color:white;
+   text-align: left;
+  }
+  .announce-table th,
+  .announce-table td{
+    padding: 12px 15px;
+    width: 12rem;
+  }
+  .announce-table tbody tr{
+    border-bottom: #dddddd;
+  }
+  .announce-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+  }
+  .announce-table tbody tr:last-of-type{
+    border-bottom: 2px solid #007bff;
+  }
+  .announce-head{
+      display: flex;
+      font-weight: 400;
+      flex-direction: row;
+      margin-left: 25px;
+      gap: 6px;
+  }
+  .add-announce-btn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    height: fit-content;
+    width: 11rem;
+    margin-left: 43.5rem;
+    padding: 4px;
+    align-items: center;
+  }
+  .search-bar-announce{
+      width: 11rem;
+      height: 30px;
+      background-color: #ccc;
+      border-radius: 5px;
+    
+  }
+  .action-dropdown {
+    position: relative;
+  }
+  
+  .action-dropdown button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-dropdown ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: none;
+  }
+  
+  .action-dropdown:hover ul {
+    display: block;
+  }
+  
+  .action-dropdown ul li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  .pagination {
+      display: flex;
+      justify-content: end;
+      margin-top: 10px;
+    }
+    
+    .btn {
+      background-color: #ccc;
+      margin-right: 5px;
+      border-radius: 3px;
+      padding: 2px;
+    }
+    
+    .btn-next {
+      background-color: #007bff;
+      border-radius: 3px;
+      border: 1px solid #007bff;
+      color: white;
+      padding: 2px;
+      margin-right: 5px;
+    }
+    
+    .option {
+      background-color: #ccc;
+      padding: 2px;
+      margin-left: 5px;
+      margin-right: 10px;
+    }

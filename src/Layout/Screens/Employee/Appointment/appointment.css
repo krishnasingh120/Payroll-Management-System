@@ -1,0 +1,108 @@
+.appointment{
+  display: flex;
+  width: 1100px;
+  background-color: white;
+  height: 465px;
+  border-radius: 5px;
+}
+
+.appointment-table {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.appointment-table h2{
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.appointment-table table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 400px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.appointment-table thead tr{
+ background-color: #ccc;
+ color:white;
+ text-align: left;
+}
+.appointment-table th,
+.appointment-table td{
+  padding: 12px 15px;
+  width: 10rem;
+}
+.appointment-table tbody tr{
+  border-bottom: #dddddd;
+}
+.appointment-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+.appointment-table tbody tr:last-of-type{
+  border-bottom: 2px solid #ccc;
+}
+  
+  .appointment-table img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .status-part-time {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status-on-contract {
+    background-color: lightblue;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status-seasonal {
+    background-color: lightgreen;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status-full-time {
+    background-color: lightcoral;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background-color: #ccc;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 2px;
+  }
+  
+  .btn-next {
+    background-color: #007bff;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+    padding: 2px;
+    margin-right: 5px;
+  }
+  
+  .option {
+    background-color: #ccc;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }

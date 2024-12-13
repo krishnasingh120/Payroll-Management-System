@@ -1,0 +1,31 @@
+.history-container {
+    margin-bottom: 20px;
+    background-color: white;
+    height: 465px;
+    border-radius: 5px;
+  }
+  .history-container h2{
+    font-weight: 500;
+    margin-left: 17px;
+  }
+  
+  .history-item {
+    margin-top: 10px;
+    margin-left: 17px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ccc;
+    border-bottom: 2px solid white;
+    width: 45rem;
+    height: 6rem;
+  }
+  
+  .history-item:last-child {
+    border-bottom: 2px solid white;
+  }
+  
+  .history-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }

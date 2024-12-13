@@ -1,0 +1,28 @@
+.employee-head{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-employee-btn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    height: fit-content;
+    width: 10rem;
+    margin-left: 46rem;
+    padding: 4px;
+}
+.invite-btn{
+    background-color: #ffff;
+    border-radius: 4px;
+    height: fit-content;
+    width: 10rem;
+    margin-left: 1rem;
+    padding: 4px;
+}
+
+
+.employee{
+    display: flexbox;
+    flex-direction: column;
+}

@@ -1,0 +1,55 @@
+.payrun-container {
+    margin-bottom: 20px;
+    background-color: white;
+    height: 465px;
+    border-radius: 5px;
+  }
+  .payrun-container h2{
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .warning-message {
+    margin-top: 20px;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    margin-left: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .icon-1{
+    font-size: 40px;
+    margin-right: 1rem;
+    color: blue ;
+  }
+  .close-button {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .payrun-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group span {
+    margin-left: 5px;
+  }

@@ -1,0 +1,112 @@
+.role{
+    display: flex;
+    width: 1100px;
+    background-color: white;
+    height: 465px;
+    border-radius: 5px;
+  }
+  .role-table {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .role-table table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .role-table thead tr{
+   background-color: #007bff;
+   color:white;
+   text-align: left;
+  }
+  .role-table th,
+  .role-table td{
+    padding: 12px 15px;
+    width: 16rem;
+  }
+  .role-table tbody tr{
+    border-bottom: #dddddd;
+  }
+  .role-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+  }
+  .role-table tbody tr:last-of-type{
+    border-bottom: 2px solid #007bff;
+  }
+  .role-head{
+      display: flex;
+      font-weight: 400;
+      flex-direction: row;
+      margin-left: 25px;
+      gap: 6px;
+  }
+  .add-user-btn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    height: fit-content;
+    width: 7rem;
+    margin-left: 39.5rem;
+    padding: 2px;
+    align-items: center;
+  }
+  .invite-user-btn{
+    background-color: #ccc;
+    color:black;
+    border-radius: 4px;
+    height: fit-content;
+    width: 7rem;
+    
+    
+    padding: 2px;
+    align-items: center;
+  }
+  .option1 {
+    
+    padding: 2px;
+    /* margin-left: 56rem; */
+    margin-right: 10px;
+  }
+  
+  .search-bar-role{
+      width: 64rem;
+      height: 33px;
+      background-color: #ccc;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-right: 10px;
+      
+  }
+  .pagination {
+      display: flex;
+      justify-content: end;
+      margin-top: 10px;
+    }
+    
+    .btn {
+      background-color: #ccc;
+      margin-right: 5px;
+      border-radius: 3px;
+      padding: 2px;
+    }
+    
+    .btn-next {
+      background-color: #007bff;
+      border-radius: 3px;
+      border: 1px solid #007bff;
+      color: white;
+      padding: 2px;
+      margin-right: 5px;
+    }
+    
+    .option {
+      background-color: #ccc;
+      padding: 2px;
+      margin-left: 5px;
+      margin-right: 10px;
+    }

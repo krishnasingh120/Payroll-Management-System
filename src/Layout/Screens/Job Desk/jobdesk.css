@@ -1,0 +1,6 @@
+.jobdesk {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 1rem; /* Space between grid items */
+    padding: 1rem;
+}

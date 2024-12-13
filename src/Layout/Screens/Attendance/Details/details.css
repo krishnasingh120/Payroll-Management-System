@@ -1,0 +1,86 @@
+.details-a{
+    display: flex;
+    width: 1100px;
+    background-color: white;
+    height: 540px;
+    border-radius: 5px;
+  }
+  .details-table {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .details-table table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+  .details-table thead tr{
+   background-color: #007bff;
+   color:white;
+   text-align: left;
+  }
+  .details-table th,
+  .details-table td{
+    padding: 12px 15px;
+  }
+  .details-table tbody tr{
+    border-bottom: #dddddd;
+    
+  }
+  .details-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+  }
+  .details-table tbody tr:last-of-type{
+    border-bottom: 2px solid #007bff;
+  }  
+  .details-header {
+      display: flex;
+      flex-direction: row;
+      border-radius: 3px;
+      margin-left: 10px;
+      gap: 2px;
+  }
+  .search-bar-details{
+      margin-left: 49rem;
+      width: 30%;
+      height: 33px;
+      background-color: #ccc;
+      border-radius: 5px;
+      
+      
+  }
+  .pagination {
+      display: flex;
+      justify-content: end;
+      margin-top: 10px;
+    }
+    
+    .btn {
+      background-color: #ccc;
+      margin-right: 5px;
+      border-radius: 3px;
+      padding: 2px;
+    }
+    
+    .btn-next {
+      background-color: #007bff;
+      border-radius: 3px;
+      border: 1px solid #007bff;
+      color: white;
+      padding: 2px;
+      margin-right: 5px;
+    }
+    
+    .option {
+      background-color: #ccc;
+      padding: 2px;
+      margin-left: 5px;
+      margin-right: 10px;
+    }

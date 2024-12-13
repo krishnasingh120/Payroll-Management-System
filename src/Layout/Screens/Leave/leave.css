@@ -1,0 +1,22 @@
+.leave-head{
+    display: flex;
+    flex-direction: row;
+}
+
+.leave-btn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    height: fit-content;
+    width: 8rem;
+    margin-left: 57rem;
+    padding: 4px;
+    align-items: center;
+}
+.icon-leave{
+    font-size: 15px;
+}
+.leave{
+    display: flexbox;
+    flex-direction: column;
+}
